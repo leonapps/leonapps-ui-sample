@@ -1,0 +1,92 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    text-transform: initial;
+    background-color: #f2f3f8;
+    color: #646c9a;
+}
+
+p {
+    color: #999;
+}
+
+a {
+    color: #959cb6;
+}
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+input {
+    font-size: 13px;
+}
+
+select {
+    font-size: 13px;
+}
+
+textarea {
+    font-size: 13px;
+}
+
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+/* ------------------------------------
+          button format
+------------------------------------- */
+.btn-icon {
+    margin-left: 5px;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer!important;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    vertical-align: middle;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+
+.btn-icon.light {
+    background-color: rgba(93,120,255,.1);
+    color: #5d78ff;
+}
+
+.btn-icon.light:hover, .btn-icon.light.active {
+    background-color: #5d78ff;
+    color: #fff;
+}
+
+.btn-icon.md-34 { width: 34px; height: 34px; }
+.btn-icon.md-34 > i { font-size: 20px; line-height: 30px;}
+
+
+
+
+
